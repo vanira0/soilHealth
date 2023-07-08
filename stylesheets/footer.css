@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.foot-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #0db24c;
+    height: 2px;
+    width: 60px;
+}
+
+.social-links a {
+    color: #0db24c;
+}
+
+.footer {
+    background-color: #0db24c;
+}
